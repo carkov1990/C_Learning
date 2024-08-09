@@ -27,4 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: cc main.c
+        run: cc -o main.out main.c
+
+      - name: Run application
+        run: main.out -l 0 -u 100
