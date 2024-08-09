@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(void)
+int main()
 {
 int fahr, celsius;
 int lower, upper, step;
@@ -31,5 +31,5 @@ fahr = fahr + step;
 }
 
 printf("Input region of klz");
-scanf("%i", klz);
+scanf("%i", &klz);
 }
