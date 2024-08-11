@@ -7,12 +7,10 @@ scanf("%i", &lower);
 printf("Input you upper:");
 scanf("%i", &upper);
 
-
-
     {
         int fahr, step;
 
-    for( int 0 = lower; fahr <= 300; step = 5)
+    for(fahr = lower; fahr <= 300; fahr = 5)
     printf("%3d %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
     }
 
